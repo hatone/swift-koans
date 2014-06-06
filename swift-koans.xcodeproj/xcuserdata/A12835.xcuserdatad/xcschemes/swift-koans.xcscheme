@@ -37,6 +37,14 @@
                BlueprintName = "swift-koansTests"
                ReferencedContainer = "container:swift-koans.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "AboutAssertsTest">
+               </Test>
+               <Test
+                  Identifier = "swift_koansTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>

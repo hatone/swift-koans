@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		782A5AAA1941543C00B4238F /* AboutAsserts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A5AA91941543C00B4238F /* AboutAsserts.swift */; };
+		782A5AAC19415C6300B4238F /* AboutLetAndVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782A5AAB19415C6300B4238F /* AboutLetAndVar.swift */; };
 		7886065119414AC2007F71E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7886065019414AC2007F71E9 /* AppDelegate.swift */; };
 		7886065319414AC2007F71E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7886065219414AC2007F71E9 /* Images.xcassets */; };
 		7886065F19414AC2007F71E9 /* swift_koansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7886065E19414AC2007F71E9 /* swift_koansTests.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		782A5AA91941543C00B4238F /* AboutAsserts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutAsserts.swift; sourceTree = "<group>"; };
+		782A5AAB19415C6300B4238F /* AboutLetAndVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutLetAndVar.swift; sourceTree = "<group>"; };
 		7886064B19414AC2007F71E9 /* swift-koans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-koans.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7886064F19414AC2007F71E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7886065019414AC2007F71E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,9 +93,10 @@
 		7886065B19414AC2007F71E9 /* swift-koansTests */ = {
 			isa = PBXGroup;
 			children = (
+				782A5AA91941543C00B4238F /* AboutAsserts.swift */,
 				7886065E19414AC2007F71E9 /* swift_koansTests.swift */,
 				7886065C19414AC2007F71E9 /* Supporting Files */,
-				782A5AA91941543C00B4238F /* AboutAsserts.swift */,
+				782A5AAB19415C6300B4238F /* AboutLetAndVar.swift */,
 			);
 			path = "swift-koansTests";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				7886065F19414AC2007F71E9 /* swift_koansTests.swift in Sources */,
 				782A5AAA1941543C00B4238F /* AboutAsserts.swift in Sources */,
+				782A5AAC19415C6300B4238F /* AboutLetAndVar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

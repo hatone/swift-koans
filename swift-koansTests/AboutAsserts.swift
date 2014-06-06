@@ -12,25 +12,25 @@ import XCTest
 class AboutAsserts {
 
     class func shouldBeTrue() -> Bool {
-        return __;
+        return true;
     }
     
     class func shouldBeFalse() -> Bool {
-        return __;
+        return false;
     }
     
     class func shouldBe(b:Bool) -> Bool {
-        return __;
+        return b;
     }
     
     class func shouldBeEqual() -> Bool {
         let a = 4
         var b = 4
-        return a == __
+        return a==b
     }
     
     class func shouldBeEqual2() -> Bool {
-        return __ ==1+1
+        return 2==1+1
     }
 
 }
@@ -52,7 +52,7 @@ class AboutAssertsTest: XCTestCase {
     }
     
     func testSouldBeEqual() {
-        XCTAssertEqual(AboutAsserts.shouldBeEqual2(), true)
+        XCTAssertEqual(AboutAsserts.shouldBeEqual(), true)
     }
 
 }
